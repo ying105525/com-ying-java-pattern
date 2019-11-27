@@ -14,7 +14,7 @@ public class BeanFactory {
     private BeanFactory() {
     }
 
-//    静态map，ConcurrentHashMap支持并发的线程安全
+    //  静态map，ConcurrentHashMap支持并发的线程安全
     private static Map<String,Object> ioc = new ConcurrentHashMap<>();
 
     /**
